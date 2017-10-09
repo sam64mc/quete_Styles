@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Main"
+    tools:context="fr.wcs.stylealive.MainActivity">
+
+    <LinearLayout
+        style="@style/LinearLayout1"
+        >
+
+        <LinearLayout
+            style="@style/LinearLayout2"
+            >
+
+            <ImageView
+                style="@style/ImageView"
+                android:src="@drawable/ic_computer_black_24dp"
+                 />
+
+            <TextView
+                style="@style/TextView1"
+                android:text="@string/title"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/TextView2"
+            android:text="@string/description"
+            />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/TextView3"
+            android:text="@string/subtitle1" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/TextView4"
+            android:text="@string/text1" />
+
+        <TextView
+            style="@style/TextView5"
+            android:text="@string/subtitle2"
+             />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/TextView6"
+            android:text="@string/text2" />
+
+        <TextView
+            style="@style/TextView7"
+            android:text="@string/conclusion"
+            />
+
+        <TextView
+            style="@style/TextView8"
+            android:text="@string/c_est_cool"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
